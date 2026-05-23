@@ -36,7 +36,7 @@ img/
 output/
 exports/
 html/
-*.html
+
 
 # Data files (usually large or sensitive)
 *.csv
