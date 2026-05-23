@@ -1,11 +1,81 @@
-### Python ###
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
 
-# Byte-compiled files
+# Python
 __pycache__/
-*.swp
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Jupyter notebooks
+# Jupyter & Voila specific
 .ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.nbconvert
+.voila/
+cache/
+static/
+.ipynb_checkpoints
+.jupyter
+voila.log
 
-# User-specific files
-backup/
+# Output & Generated Files
+img/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+output/
+exports/
+html/
+*.html
+
+# Data files (usually large or sensitive)
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.h5
+data/
+raw/
+processed/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# PyInstaller / Packaging
+*.manifest
+*.spec
