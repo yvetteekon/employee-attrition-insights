@@ -28,7 +28,6 @@ voila.log
 
 # Output & Generated Files
 img/
-*.png
 *.jpg
 *.jpeg
 *.gif
