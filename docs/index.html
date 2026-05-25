@@ -7818,7 +7818,7 @@ require(
             controls: true,
             progress: true,
             history: true,
-            transition: "none",
+            transition: "slide",
             slideNumber: "",
             plugins: [RevealNotes],
             width: 960,
@@ -7835,7 +7835,7 @@ require(
         Reveal.addEventListener('slidechanged', update);
 
         function setScrollingSlide() {
-            var scroll = false
+            var scroll = true
             if (scroll === true) {
               var h = $('.reveal').height() * 0.95;
               $('section.present').find('section')
