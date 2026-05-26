@@ -30,5 +30,5 @@ python -m venv venv
 source venv/Scripts/activate    # Windows
 pip install -r requirements.txt
 jupyter notebook
-
+```
 
