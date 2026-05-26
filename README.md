@@ -1,28 +1,34 @@
-# Employee-Attrition-Project
-### Project Context
-**Datacamp Competition:** "Can you help reduce employee turnover?" 
+# Employee Attrition Insights 
+📊 **Uncovering why employees leave** | Analysis of 9,540 employees
 
-My analysis which was done in Python placed [5th  position](https://app.datacamp.com/workspace/w/ab949f18-f50d-43b4-bb97-750ec06510bd) provided actionable insights with strategic recommendations to reduce employee attrition.
+## Project Overview
+This project analyzes employee attrition data to uncover key drivers of turnover and provide actionable recommendations to improve retention.
 
-### Project Objectives
-The Board of the human capital department of a large corporation I work for is worried about the relatively high
-turnover of employees. As an analyst on the team assigned to this task, I am to provide a report to help the board better understand the situation:
+**Key Highlights:**
+- Identified that **high performers** are leaving at concerning rates
+- Found strong links between satisfaction scores, workload, and tenure
+- Built both **interactive Voila dashboard** and **static slides**
 
-* which employees are more likely to leave
-* which department has the highest employee turnover and which one has the lowest
-* which variables seem to be indicators of employee departure
+## Repository Contents
 
-### Data Sources
-1. Datacamp competitions [datacamp](https://app.datacamp.com/learn/competitions/reducing-employee-turnover)
- 
-### Requirements (python)
-1. Python pip
+- **`employee attrition dashboard.ipynb`** → Main analysis notebook
+- **`docs/index.html`** → Static version (deployed on Netlify/GitHub Pages)
+- `requirements.txt` → Reproducible environment
+- `.gitignore` → Clean project structure
 
-### Resource References
-* https://www.kaggle.com/joshuaswords/netflix-data-visualization
+## Live Links
+- **Static Dashboard** (Netlify): (https://employee-attrition-insights.netlify.app/)
+- **GitHub Pages Slides**: https://yvetteekon.github.io/employee-attrition-insights/
+- **5th Position Winner** (Datacamp Competition): https://app.datacamp.com/workspace/w/ab949f18-f50d-43b4-bb97-750ec06510bd
 
-* https://data-enhanced.com/2020/10/06/leveraging-the-narrative-arc-to-inspire-data-driven-action/
+## How to Run Locally
 
-* https://towardsdatascience.com/stacked-bar-charts-with-pythons-matplotlib-f4020e4eb4a7
+```bash
+git clone https://github.com/yvetteekon/employee-attrition-insights.git
+cd employee-attrition-insights
+python -m venv venv
+source venv/Scripts/activate    # Windows
+pip install -r requirements.txt
+jupyter notebook
 
-* https://matplotlib.org/devdocs/gallery/misc/packed_bubbles.html
+
