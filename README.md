@@ -1,7 +1,7 @@
 # Employee Attrition Insights 
 📊 **Lets Learn From Our Churned Employees**
 
-![Insights Preview] (
+![Insights Preview](https://github.com/yvetteekon/employee-attrition-insights/blob/main/readme-preview.png)
 
 
 ## Additional Insights 
