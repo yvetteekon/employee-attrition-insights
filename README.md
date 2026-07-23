@@ -7,14 +7,4 @@
 
 
 
-## How to Run Locally
-
-```bash
-- git clone https://github.com/yvetteekon/employee-attrition-insights.git
-- cd employee-attrition-insights
-- python -m venv venv
-- source venv/Scripts/activate    # Windows
-- pip install -r requirements.txt
-- jupyter notebook
-```
 
